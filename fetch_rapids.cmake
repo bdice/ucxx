@@ -16,7 +16,7 @@ set(rapids-cmake-repo bdice/rapids-cmake)
 set(rapids-cmake-branch cccl-2.7.0-rc2)
 
 if(NOT EXISTS ${CMAKE_CURRENT_BINARY_DIR}/UCXX_RAPIDS.cmake)
-  file(DOWNLOAD https://raw.githubusercontent.com/rapidsai/rapids-cmake/branch-24.12/RAPIDS.cmake
+  file(DOWNLOAD https://raw.githubusercontent.com/rapidsai/rapids-cmake/branch-25.02/RAPIDS.cmake
        ${CMAKE_CURRENT_BINARY_DIR}/UCXX_RAPIDS.cmake
   )
 endif()
