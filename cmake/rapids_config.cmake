@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # cmake-format: on
 # =============================================================================
+set(rapids-cmake-repo bdice/rapids-cmake)
+set(rapids-cmake-branch cccl-3.2.x)
 file(READ "${CMAKE_CURRENT_LIST_DIR}/../RAPIDS_VERSION" _rapids_version)
 if(_rapids_version MATCHES [[^([0-9][0-9])\.([0-9][0-9])\.([0-9][0-9])]])
   set(RAPIDS_VERSION_MAJOR "${CMAKE_MATCH_1}")
